@@ -28,4 +28,8 @@ Example of input file content:
 
 Input audio: samples/sample.wav
 
-Response: @text: "after a time she heard a little pattering of feet in the distance and she hastily dried her eyes to see what was coming"
+Response: 
+- `text: "one"`
+- `text: "two"`
+- `text: "up"`
+- `text: "down"`
