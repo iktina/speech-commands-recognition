@@ -6,7 +6,7 @@ he service receives an audio file and uses it as an input for trained model.
 
 ## Model details:
 
-The service receives an English-speech WAV audio file and uses it as an input to the MarbleNet model, based on a neural network trained in half-precision using a mixture of natural and synthetic data, and outputs the result of the speech sample recognition in form of a two speech samples. The model runs on a GPU equipped with tensor cores to provide greater service bandwidth. The input audio file size is limited to 4Mb, in practice the optimal duration of the processed audio track should be no more than 90 seconds for 320 kbps audio.
+The service receives an English-speech WAV audio file and uses it as an input to the MarbleNet model, based on a neural network trained in half-precision using a mixture of natural and synthetic data, and outputs the result of the speech sample recognition in form of a text. The model runs on a GPU equipped with tensor cores to provide greater service bandwidth. The input audio file size is limited to 4Mb, in practice the optimal duration of the processed audio track should be no more than 90 seconds for 320 kbps audio.
 
 ## How does it work?
 
