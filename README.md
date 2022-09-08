@@ -2,7 +2,7 @@
 
 ## What’s the point?
 
-he service receives an audio file and uses it as an input for trained model.
+The service receives an audio file and uses it as an input for trained model.
 
 ## Model details:
 
